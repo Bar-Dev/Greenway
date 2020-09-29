@@ -1,12 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 h1 {
     text-transform: uppercase;
     padding: 0px 0px 0px 20px;
     letter-spacing: 3px;
 }
 
-#home-image {
-    height: 750px;
-    width: 100%;
-    background: url("/images/Home-image.jpg") no-repeat center center;
+.home-image {
+    height: auto;
+    max-width: 100%;
+
+    animation-name: home-zoom;
+    animation-duration: 8s;
+    animation-fill-mode: backwards;
 }
 
+@keyframes home-zoom {
+    from {
+        transform: scale(1.2);
+    }
+    to {
+        transform: scale(1.0);
+    }
+}
+
+.display-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.box{
+        position: relative;
+    }
+    .box .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0;
+        right: 40px;
+        bottom: 40px; 
+        width: 500px;
+        height: 100px;
+        padding: 10px;
+        background-color: rgba(241, 109, 107, 0.8);
+        color: #fff;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+div > h2 {
+    text-align: center;
+}
+
+h3 {
+    color: #555555;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+}
