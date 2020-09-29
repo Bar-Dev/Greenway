@@ -1,0 +1,12 @@
+h1 {
+    text-transform: uppercase;
+    padding: 0px 0px 0px 20px;
+    letter-spacing: 3px;
+}
+
+#home-image {
+    height: 750px;
+    width: 100%;
+    background: url("/images/Home-image.jpg") no-repeat center center;
+}
+
