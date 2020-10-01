@@ -1,10 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/*------------------------Headings------------------------*/
 
 h1 {
     text-transform: uppercase;
     padding: 0px 0px 0px 20px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 400;
 }
+
+div > h2 {
+    text-align: left;
+}
+
+h3 {
+    color: #555555;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+}
+
+h3 i {
+    margin-bottom: 10px;
+}
+
+hr {
+    height:2px;
+    border-width:0;
+    color:gray;
+    background-color:gray;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 50%;
+}
+
+/*------------------------Main Image------------------------*/
 
 .home-image {
     height: auto;
@@ -56,34 +87,19 @@ img {
     color: #fff;
     font-weight: 600;
     text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
     }
 
-div > h2 {
-    text-align: left;
-}
 
-h3 {
-    color: #555555;
-    text-align: center;
-    margin-top: 40px;
-    text-transform: uppercase;
-}
 
-hr {
-    height:2px;
-    border-width:0;
-    color:gray;
-    background-color:gray;
-    margin-top: 80px;
-    width: 50%;
-}
+/*------------------------Carousels------------------------*/
 
 .uppercase {
     text-transform: uppercase;
 }
 
 .general-sub {
-    font-family: "Exo", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 300;
     color: #fafafa;
 }
@@ -93,8 +109,10 @@ hr {
 }
 
 .carousel-style {
-    padding: 20px 20px 20px 20px;
+    padding: 0px 20px 0px 20px;
 }
+
+/*------------------------Footer------------------------*/
 
 footer {
     background-color: #525252;
@@ -103,7 +121,7 @@ footer {
     margin: 100px 0 0 0;
 }
 
-.cv-pdf i {
+.pdf-lists i {
     font-size: 18px;
     color: #fafafa;
     text-align: center;
@@ -114,7 +132,7 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.cv-pdf i:hover {
+.pdf-lists i:hover {
     color: #e84610;
 }
 
