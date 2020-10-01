@@ -125,6 +125,10 @@ img {
     margin-bottom: 60px;
 }
 
+.carousel-item span {
+    color: black;
+    background-color: #fff;
+}
 
 /*------------------------Footer------------------------*/
 
