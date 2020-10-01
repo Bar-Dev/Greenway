@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
+/*------------------------General------------------------*/
+
+body {
+    padding-top: 75px;
+    font-family: "Roboto", sans-serif;
+    color: #555555;
+}
+
 /*------------------------Headings------------------------*/
 
 h1 {
     text-transform: uppercase;
-    padding: 0px 0px 0px 20px;
     letter-spacing: 2px;
     font-family: "Roboto Slab", sans-serif;
     font-weight: 400;
@@ -34,6 +41,7 @@ hr {
     margin-bottom: 60px;
     width: 50%;
 }
+
 
 /*------------------------Main Image------------------------*/
 
@@ -112,13 +120,31 @@ img {
     padding: 0px 20px 0px 20px;
 }
 
+.feedback-style {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+
 /*------------------------Footer------------------------*/
 
 footer {
     background-color: #525252;
     color: #fafafa;
     min-height: 120px;
-    margin: 100px 0 0 0;
+    margin: 0;
+}
+
+.blockquote .cite-style {
+    background-color: #fff;
+    color: #555555;
+    margin: 0;
+    min-height: 0px;
+    box-sizing: content-box;
+}
+
+.cite-style::before {
+  content: "\2014\00A0";
 }
 
 .pdf-lists i {
@@ -133,7 +159,7 @@ footer {
 }
 
 .pdf-lists i:hover {
-    color: #e84610;
+    color: #18d612;
 }
 
 #bike-shop-list {
@@ -161,7 +187,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #e84610;
+    background: #18d612;
 }
 
 .list-inline-item:not(:last-child) {
@@ -184,3 +210,22 @@ footer {
     width: 50%;
     }
 }
+
+@media(max-width: 992px) {
+    .col-sm-4 h3 {
+    margin-top: 40px;
+    }
+}
+
+@media(max-width: 992px) {
+    h1 {
+    font-size: 32px;
+    }
+}
+
+@media(max-width: 405px) {
+    h1 {
+    font-size: 20px;
+    }
+}
+
