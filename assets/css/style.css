@@ -221,11 +221,56 @@ footer {
     h1 {
     font-size: 32px;
     }
+    body {
+    padding-top: 72px;
+    }
+    .box .info-box {
+    position: absolute;
+    z-index: 999;
+    margin: 0;
+    right: 40px;
+    bottom: 40px; 
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+    background-color: rgba(241, 109, 107, 0.8);
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    }
+    div > h2 {
+        font-size: 21px;
+    }
+}
+
+@media(max-width: 720px) {
+    .box .info-box {
+    position: absolute;
+    z-index: 999;
+    margin: 0;
+    right: 40px;
+    bottom: 40px; 
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    background-color: rgba(241, 109, 107, 0.8);
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    }
+    div > h2 {
+        font-size: 13.5px;
+    }
 }
 
 @media(max-width: 405px) {
     h1 {
     font-size: 20px;
+    }
+    body {
+    padding-top: 58px;
     }
 }
 
