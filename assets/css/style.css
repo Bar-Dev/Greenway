@@ -130,6 +130,10 @@ img {
     background-color: #fff;
 }
 
+.carousel-button {
+    text-align: center;
+}
+
 /*------------------------Footer------------------------*/
 
 footer {
