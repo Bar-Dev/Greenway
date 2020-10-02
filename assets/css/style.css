@@ -82,7 +82,7 @@ img {
         position: relative;
     }
 
-.box .info-box{
+.box .info-box {
     position: absolute;
     z-index: 999;
     margin: 0;
@@ -91,11 +91,22 @@ img {
     width: 260px;
     height: 260px;
     padding: 10px;
-    background-color: rgba(241, 109, 107, 0.8);
     color: #fff;
     font-weight: 600;
     text-transform: uppercase;
     font-family: "Roboto", sans-serif;
+    }
+
+#home {
+    background-color: rgba(79, 38, 165, 0.8);
+    }
+
+#cafe-box { 
+    background-color: rgba(75, 218, 52, 0.8);
+    }
+
+#bikehire { 
+    background-color: rgba(165, 84, 38, 0.8);
     }
 
 
@@ -148,6 +159,17 @@ img {
 
 .small-box-text span {
     padding-top: 15px;
+}
+
+.image-list {
+     max-width: 250px; 
+     max-height: 250px; 
+     border:1px solid #000; 
+     padding: 0;
+     }
+
+.list-styling {
+    margin-top: 25px;
 }
 
 /*------------------------Footer------------------------*/
