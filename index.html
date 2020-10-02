@@ -19,6 +19,9 @@
 
 <body>
 	<header>
+
+		<!----------------------- Navbar ---------------------->
+
 		<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
 			<a class="navbar-brand" href="index.html">
 				<h1>The Greenway</h1>
@@ -56,6 +59,9 @@
 			</div>
 		</nav>
 	</header>
+
+	<!----------------------- Main Image ---------------------->
+
 	<section>
 		<div class="display-container content box" style="max-width:1600px;">
 			<img class="home-image" src="/images/home-image.jpg" alt="Dungarvan Greenway Sign" width="1600" height="800">
@@ -69,6 +75,9 @@
 			</div>
 		</div>
 	</section>
+
+	<!----------------------- Carousels One on Page ---------------------->
+
 	<hr class="hr-line">
 	<div class="container-fluid">
 		<div class="row">
@@ -83,20 +92,20 @@
 					<div class="carousel-inner">
 						<div class="carousel-item active">
 							<img src="/images/greenery.jpg" class="d-block w-100" alt="Fantastic Greenery">
-							<div class="carousel-caption d-none d-md-block">
+							<div class="carousel-caption d-none d-md-block small-box-text">
 								<span>Fantastic Greenery</span>
 							</div>
 						</div>
 						<div class="carousel-item">
 							<img src="/images/greenway-clonea.jpg" class="d-block w-100" alt="Cliffs of Ballyvoyle">
-							<div class="carousel-caption d-none d-md-block">
+							<div class="carousel-caption d-none d-md-block small-box-text">
 								<span>Cliffs of Ballyvoyle</span>
 							</div>
 						</div>
 						<div class="carousel-item">
 							<img src="/images/greenway-sunset.jpg" class="d-block w-100" alt="Sunset over Clonea Beach">
 							<div class="carousel-caption d-none d-md-block">
-								<span>Sunset over Clonea Beach</span>
+								<span>Sunset Clonea Beach</span>
 							</div>
 						</div>
 					</div>
@@ -109,12 +118,15 @@
 						<span class="sr-only">Next</span>
 					</a>
 				</div>
-                <div class="carousel-button">
-                    <button type="button" class="btn" data-toggle="modal" data-target="#myModal">View larger images</button>
-                </div>
+
+				<!----------------------- Carousels One on Modal ---------------------->
+
+				<div class="carousel-button">
+					<button type="button" class="btn" data-toggle="modal" data-target="#mySights">View larger images</button>
+				</div>
 
 
-				<div class="modal fade  " id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+				<div class="modal fade  " id="mySights" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
 					aria-hidden="true">
 					<div class="modal-dialog modal-lg">
 						<div class="modal-content">
@@ -133,20 +145,20 @@
 									<div class="carousel-inner">
 										<div class="carousel-item active">
 											<img src="/images/greenery.jpg" class="d-block w-100" alt="Fantastic Greenery">
-											<div class="carousel-caption d-none d-md-block">
+											<div class="carousel-caption d-none d-md-block small-box-text">
 												<span>Fantastic Greenery</span>
 											</div>
 										</div>
 										<div class="carousel-item">
 											<img src="/images/greenway-clonea.jpg" class="d-block w-100" alt="Cliffs of Ballyvoyle">
-											<div class="carousel-caption d-none d-md-block">
+											<div class="carousel-caption d-none d-md-block small-box-text">
 												<span>Cliffs of Ballyvoyle</span>
 											</div>
 										</div>
 										<div class="carousel-item">
-											<img src="/images/greenway-sunset.jpg" class="d-block w-100" alt="Sunset over Clonea Beach">
+											<img src="/images/greenway-sunset.jpg" class="d-block w-100" alt="Sunset Clonea Beach">
 											<div class="carousel-caption d-none d-md-block">
-												<span>Sunset over Clonea Beach</span>
+												<span>Sunset Clonea Beach</span>
 											</div>
 										</div>
 									</div>
@@ -163,13 +175,15 @@
 								</div>
 								<div class="modal-footer">
 									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-									<!-- <button type="button" class="btn btn-primary">Save changes</button> -->
 								</div>
-							</div><!-- /.modal-content -->
-						</div><!-- /.modal-dialog -->
-					</div><!-- /.modal -->
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
+
+			<!----------------------- Carousels Two on Page ---------------------->
+
 			<div class="col-sm-4">
 				<h3><i class="fas fa-coffee d-sm-block"></i> Pit Stops</h3>
 				<div id="pit-stops" class="carousel slide carousel-style" data-interval="false">
@@ -193,7 +207,7 @@
 						</div>
 						<div class="carousel-item">
 							<img src="/images/omahonys-pub.png" class="d-block w-100" alt="OMahonys Pub">
-							<div class="carousel-caption d-none d-md-block">
+							<div class="carousel-caption d-none d-md-block small-box-text">
 								<span>O'Mahonys Pub</span>
 							</div>
 						</div>
@@ -208,7 +222,72 @@
 					</a>
 				</div>
 
+				<!----------------------- Carousels Two on Modal ---------------------->
+
+				<div class="carousel-button">
+					<button type="button" class="btn" data-toggle="modal" data-target="#myPitstops">View larger images</button>
+				</div>
+
+
+				<div class="modal fade  " id="myPitstops" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+					aria-hidden="true">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+							</div>
+							<div class="modal-body">
+								<!-- Indicators -->
+								<div id="modal-pit-stops" class="carousel slide carousel-style" data-interval="false">
+									<ol class="carousel-indicators">
+										<li data-target="#modal-pit-stops" data-slide-to="0" class="active"></li>
+										<li data-target="#modal-pit-stops" data-slide-to="1"></li>
+										<li data-target="#modal-pit-stops" data-slide-to="2"></li>
+									</ol>
+									<div class="carousel-inner">
+										<div class="carousel-item active">
+											<img src="/images/coach-house.jpg" class="d-block w-100" alt="Coach House Coffee">
+											<div class="carousel-caption d-none d-md-block">
+												<span>Coach House Coffee</span>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img src="/images/rebike.jpg" class="d-block w-100" alt="Rebike Coffee Shop">
+											<div class="carousel-caption d-none d-md-block">
+												<span>ReBike Coffee Shop</span>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img src="/images/omahonys-pub.png" class="d-block w-100" alt="OMahonys Pub">
+											<div class="carousel-caption d-none d-md-block small-box-text">
+												<span>O'Mahonys Pub</span>
+											</div>
+										</div>
+									</div>
+									<a class="carousel-control-prev" href="#modal-pit-stops" role="button"
+										data-slide="prev">
+										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="carousel-control-next" href="#modal-pit-stops" role="button"
+										data-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
+										<span class="sr-only">Next</span>
+									</a>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+									<!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
+
+			<!----------------------- Carousels Three on Page ---------------------->
+
 			<div class="col-sm-4">
 				<h3><i class="far fa-smile d-sm-block"></i> Attractions</h3>
 				<div id="attractions" class="carousel slide carousel-style" data-interval="false">
@@ -220,20 +299,20 @@
 					<div class="carousel-inner">
 						<div class="carousel-item active">
 							<img src="/images/ballyvoyle-tunnel.jpg" class="d-block w-100" alt="Ballyvoyle Tunnel">
-							<div class="carousel-caption d-none d-md-block">
+							<div class="carousel-caption d-none d-md-block small-box-text">
 								<span>Ballyvoyle Tunnel</span>
 							</div>
 						</div>
 						<div class="carousel-item">
 							<img src="/images/viaduct-kilmac.jpg" class="d-block w-100" alt="Viaduct Kilmacthomas">
-							<div class="carousel-caption d-none d-md-block">
-								<span> Viaduct Kilmacthomas </span>
+							<div class="carousel-caption d-none d-md-block small-box-text">
+								<span> Viaduct Kilmac </span>
 							</div>
 						</div>
 						<div class="carousel-item">
 							<img src="/images/greenway-playground.jpg" class="d-block w-100" alt="Greenway Playground">
-							<div class="carousel-caption d-none d-md-block">
-								<span> Greenway Playground </span>
+							<div class="carousel-caption d-none d-md-block small-box-text">
+								<span> Greenway Kids Area </span>
 							</div>
 						</div>
 					</div>
@@ -246,125 +325,193 @@
 						<span class="sr-only">Next</span>
 					</a>
 				</div>
-			</div>
-		</div>
-	</div>
-		<hr class="hr-line">
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<h3><i class="far fa-comments"></i> Feedback</h3>
+
+<!----------------------- Carousels Three on Modal ---------------------->
+
+				<div class="carousel-button">
+					<button type="button" class="btn" data-toggle="modal" data-target="#myAttractions">View larger images</button>
 				</div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 feedback-style">
-					<div class="media">
-						<div class="d-sm-block">
-							<img src="images/male-face.jpg" class="rounded-circle mr-3" height=100 width=100>
-								                        </div>
-							<div class="media-body">
-								<blockquote class="blockquote">
-									<p>Fantastic views the whle way along. Never seen such beautiful scenery!</p>
-									<footer class="cite-style">John Doe on <cite title="Twitter">Twitter</cite></footer>
-								</blockquote>
+
+
+				<div class="modal fade  " id="myAttractions" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+					aria-hidden="true">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
 							</div>
-						</div>
-					</div>
-					<div class="col-md-6 feedback-style">
-						<div class="media">
-							<div class="d-sm-block">
-								<img src="images/female-face.png" class="rounded-circle mr-3" height=100 width=100>
-								                        </div>
-								<div class="media">
-									<blockquote class="blockquote">
-										<p>Absolutely brilliant. Plenty of Cafes and Pubs along the way.</p>
-										<footer class="cite-style">Jane Doe on <cite title="Twitter">Twitter</cite>
-										</footer>
-									</blockquote>
+							<div class="modal-body">
+								<!-- Indicators -->
+								<div id="modal-attractions" class="carousel slide carousel-style" data-interval="false">
+									<ol class="carousel-indicators">
+										<li data-target="#modal-attractions" data-slide-to="0" class="active"></li>
+										<li data-target="#modal-attractions" data-slide-to="1"></li>
+										<li data-target="#modal-attractions" data-slide-to="2"></li>
+									</ol>
+									<div class="carousel-inner">
+										<div class="carousel-item active">
+											<img src="/images/ballyvoyle-tunnel.jpg" class="d-block w-100" alt="Ballyvoyle Tunnel">
+											<div class="carousel-caption d-none d-md-block small-box-text">
+												<span>Ballyvoyle Tunnel</span>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img src="/images/viaduct-kilmac.jpg" class="d-block w-100" alt="Viaduct Kilmacthomas">
+											<div class="carousel-caption d-none d-md-block small-box-text">
+												<span> Viaduct Kilmac </span>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<img src="/images/greenway-playground.jpg" class="d-block w-100" alt="Greenway Playground">
+											<div class="carousel-caption d-none d-md-block small-box-text">
+												<span> Greenway Kids Area </span>
+											</div>
+										</div>
+									</div>
+									<a class="carousel-control-prev" href="#modal-attractions" role="button"
+										data-slide="prev">
+										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="carousel-control-next" href="#modal-attractions" role="button"
+										data-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
+										<span class="sr-only">Next</span>
+									</a>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<footer class="container-fluid">
-					<div id="footer-details" class="row">
-						<div class="col-sm-4">
-							<h5 class="uppercase general-sub">About</h5>
-							<p class="inline-block">
-								Come and enjoy The Greenway!
-							</p>
-						</div>
-						<div class="col-sm-4">
-							<h5 class="uppercase general-sub">Download Links</h5>
-							<p class="inline-block" id="bike-shop-list">
-								Bike Hire Shops
-								<a href="#" target="_blank" class="pdf-lists">
-									<i class="fas fa-bicycle" aria-hidden="true"></i>
-									<span class="sr-only">Download link.</span>
-								</a>
-							</p>
-							<p id="cafe">
-								Cafes Dungarvan
-								<a href="#" target="_blank" class="pdf-lists">
-									<i class="fas fa-mug-hot" aria-hidden="true"></i>
-									<span class="sr-only">Download link.</span>
-								</a>
-							</p>
-						</div>
-						<div class="col-sm-4">
-							<h5 class="uppercase general-sub">Social</h5>
-							<ul class="list-inline social-links">
-								<li class="list-inline-item">
-									<a target="_blank" href="#">
-										<i class="fab fa-facebook-f" aria-hidden="true"></i>
-										<span class="sr-only">Facebook</span>
-									</a>
-								</li>
-								<li class="list-inline-item">
-									<a target="_blank" href="#">
-										<i class="fab fa-twitter" aria-hidden="true"></i>
-										<span class="sr-only">Twitter</span>
-									</a>
-								</li>
-								<li class="list-inline-item">
-									<a target="_blank" href="#">
-										<i class="fab fa-linkedin" aria-hidden="true"></i>
-										<span class="sr-only">LinkedIn</span>
-									</a>
-								</li>
-								<li class="list-inline-item">
-									<a target="_blank" href="#">
-										<i class="fab fa-pinterest" aria-hidden="true"></i>
-										<span class="sr-only">Pinterest</span>
-									</a>
-								</li>
-								<li class="list-inline-item">
-									<a target="_blank" href="#">
-										<i class="fab fa-instagram" aria-hidden="true"></i>
-										<span class="sr-only">Instagram</span>
-									</a>
-								</li>
-								<li class="list-inline-item">
-									<a target="_blank" href="#">
-										<i class="fab fa-youtube" aria-hidden="true"></i>
-										<span class="sr-only">YouTube</span>
-									</a>
-								</li>
-							</ul>
+			</div>
+		</div>
+	</div>
+
+<!----------------------- Feedback ---------------------->
+
+	<hr class="hr-line">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h3><i class="far fa-comments"></i> Feedback</h3>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 feedback-style">
+				<div class="media">
+					<div class="d-sm-block">
+						<img src="images/male-face.jpg" class="rounded-circle mr-3" height=100 width=100>
+								                        </div>
+						<div class="media-body">
+							<blockquote class="blockquote">
+								<p>Fantastic views the whle way along. Never seen such beautiful scenery!</p>
+								<footer class="cite-style">John Doe on <cite title="Twitter">Twitter</cite></footer>
+							</blockquote>
 						</div>
 					</div>
-				</footer>
-				<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-					integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-					crossorigin="anonymous"></script>
-				<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-					integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-					crossorigin="anonymous"></script>
-				<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-					integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-					crossorigin="anonymous"></script>
+				</div>
+				<div class="col-md-6 feedback-style">
+					<div class="media">
+						<div class="d-sm-block">
+							<img src="images/female-face.png" class="rounded-circle mr-3" height=100 width=100>
+								                        </div>
+							<div class="media">
+								<blockquote class="blockquote">
+									<p>Absolutely brilliant. Plenty of Cafes and Pubs along the way.</p>
+									<footer class="cite-style">Jane Doe on <cite title="Twitter">Twitter</cite>
+									</footer>
+								</blockquote>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+<!----------------------- Footer ---------------------->
+
+			<footer class="container-fluid">
+				<div id="footer-details" class="row">
+					<div class="col-sm-4">
+						<h5 class="uppercase general-sub">About</h5>
+						<p class="inline-block">
+							Come and enjoy The Greenway!
+						</p>
+					</div>
+					<div class="col-sm-4">
+						<h5 class="uppercase general-sub">Download Links</h5>
+						<p class="inline-block" id="bike-shop-list">
+							Bike Hire Shops
+							<a href="#" target="_blank" class="pdf-lists">
+								<i class="fas fa-bicycle" aria-hidden="true"></i>
+								<span class="sr-only">Download link.</span>
+							</a>
+						</p>
+						<p id="cafe">
+							Cafes Dungarvan
+							<a href="#" target="_blank" class="pdf-lists">
+								<i class="fas fa-mug-hot" aria-hidden="true"></i>
+								<span class="sr-only">Download link.</span>
+							</a>
+						</p>
+					</div>
+					<div class="col-sm-4">
+						<h5 class="uppercase general-sub">Social</h5>
+						<ul class="list-inline social-links">
+							<li class="list-inline-item">
+								<a target="_blank" href="#">
+									<i class="fab fa-facebook-f" aria-hidden="true"></i>
+									<span class="sr-only">Facebook</span>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a target="_blank" href="#">
+									<i class="fab fa-twitter" aria-hidden="true"></i>
+									<span class="sr-only">Twitter</span>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a target="_blank" href="#">
+									<i class="fab fa-linkedin" aria-hidden="true"></i>
+									<span class="sr-only">LinkedIn</span>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a target="_blank" href="#">
+									<i class="fab fa-pinterest" aria-hidden="true"></i>
+									<span class="sr-only">Pinterest</span>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a target="_blank" href="#">
+									<i class="fab fa-instagram" aria-hidden="true"></i>
+									<span class="sr-only">Instagram</span>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a target="_blank" href="#">
+									<i class="fab fa-youtube" aria-hidden="true"></i>
+									<span class="sr-only">YouTube</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+			<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+				integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+				crossorigin="anonymous"></script>
+			<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+				integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+				crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+				integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+				crossorigin="anonymous"></script>
 </body>
 
 </html>
