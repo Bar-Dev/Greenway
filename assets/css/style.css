@@ -175,28 +175,34 @@ img {
     padding-top: 15px;
 }
 
+/*------------------------Image Lists------------------------*/
+
 .image-border {
     border-right:1px solid #000;
     height: 50px;
 }
 
 .text-content {
-    padding-left: 100px;
+    padding-left: 10px;
     font-weight: 600;
+    text-align: center;
 }
 
 .list-margin{
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
-.col-sm-6 img {
-    padding-left: 100px;
-    padding-bottom: 50px; 
+.list-margin img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-bottom: 20px;
+  height: auto;
+  width: 80%;
 }
 
-.list-styling {
-    margin-top: 25px;
-}
+
+
 
 /*------------------------Footer------------------------*/
 
