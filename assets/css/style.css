@@ -42,6 +42,16 @@ hr {
     width: 50%;
 }
 
+.spacing-video {
+    height:2px;
+    border-width:0;
+    color:gray;
+    background-color:gray;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    width: 50%; 
+}
+
 .navbar-colors {
     background-color: #b9bea5;
     color: white;
@@ -123,6 +133,10 @@ img {
     background-color: rgba(165, 84, 38, 0.8);
     }
 
+#occasions-box {
+    background-color: rgba(110, 54, 22, 0.8);
+}
+
 
 
 /*------------------------Carousels------------------------*/
@@ -202,6 +216,17 @@ img {
 }
 
 
+/*----------------------- Videos ------------------------*/
+
+.video-box {
+    text-align: center;
+    width: 100%;
+    min-height: 100%px;
+}
+
+.video-spacing {
+    padding-top: 30px;
+}
 
 
 /*------------------------Footer------------------------*/
@@ -237,7 +262,7 @@ footer {
 }
 
 .pdf-lists i:hover {
-    color: #3C6E71;
+    color: #3a5a40;
 }
 
 #bike-shop-list {
