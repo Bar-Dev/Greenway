@@ -137,7 +137,9 @@ img {
     background-color: rgba(110, 54, 22, 0.8);
 }
 
-
+#route-box {
+    background-color: rgba(52, 158, 218, 0.8);
+}
 
 /*------------------------Carousels------------------------*/
 
