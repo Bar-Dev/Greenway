@@ -191,7 +191,7 @@ img {
     padding-top: 15px;
 }
 
-/*------------------------Image Lists------------------------*/
+/*------------------------Images------------------------*/
 
 .image-border {
     border-right:1px solid #000;
@@ -215,6 +215,43 @@ img {
   padding-bottom: 20px;
   height: auto;
   width: 80%;
+}
+
+.route-image-properties {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: auto;
+  width: 80%;
+}
+
+#route-icons {
+    position: absolute;
+    z-index: 999;
+    width: 32px;
+    height: 32px;
+    padding: 5px 0;
+    border-radius: 50%;
+    border: 2px solid red;
+    left: 26.8%;
+    bottom: 17.2%;
+    font-size: 13px;
+    text-align: center;
+    background: #fff;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    }
+
+.icon-style a {
+  color: blue;
+}
+a:visited {
+  color: 8e9aaf;
+}
+a:hover, a:active, a:focus {
+  color:#8e9aaf;
 }
 
 
