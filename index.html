@@ -22,11 +22,11 @@
 
 		<!----------------------- Navbar ---------------------->
 
-		<nav class="navbar fixed-top navbar-expand-lg navbar-colors">
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" id="navbar-colors">
 			<a class="navbar-brand" href="index.html">
 				<h1>The Greenway</h1>
 			</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<button class="navbar-toggler navbar-lines" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -53,7 +53,7 @@
 						<a class="nav-link" href="occasions.html">Occasions</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Sign Up</a>
+						<a class="nav-link" href="#" data-toggle="modal" data-target="#signUpModal">Sign Up</a>
 					</li>
 				</ul>
 			</div>
@@ -420,7 +420,7 @@
 					<div class="media">
 						<div class="d-sm-block">
 							<img src="images/female-face.png" class="rounded-circle mr-3" height="100" width="100">
-								                        </div>
+														                        </div>
 							<div class="media">
 								<blockquote class="blockquote">
 									<p>Absolutely brilliant. Plenty of Cafes and Pubs along the way.</p>
@@ -429,89 +429,120 @@
 								</blockquote>
 							</div>
 						</div>
-					</div>
-				</div>
-			</div>
-
-<!----------------------- Footer ---------------------->
-
-			<footer class="container-fluid">
-				<div id="footer-details" class="row">
-					<div class="col-sm-4">
-						<h5 class="uppercase general-sub">About</h5>
-						<p class="inline-block">
-							Come and enjoy The Greenway!
-						</p>
-					</div>
-					<div class="col-sm-4">
-						<h5 class="uppercase general-sub">Download Links</h5>
-						<p class="inline-block" id="bike-shop-list">
-							Bike Hire Shops
-							<a href="/assets/pdf/bike-hire.pdf" target="_blank" class="pdf-lists">
-								<i class="fas fa-bicycle" aria-hidden="true"></i>
-								<span class="sr-only">Download link.</span>
-							</a>
-						</p>
-						<p id="cafe">
-							Cafes Dungarvan
-							<a href="/assets/pdf/cafe-list.pdf" target="_blank" class="pdf-lists">
-								<i class="fas fa-mug-hot" aria-hidden="true"></i>
-								<span class="sr-only">Download link.</span>
-							</a>
-						</p>
-					</div>
-					<div class="col-sm-4">
-						<h5 class="uppercase general-sub">Social</h5>
-						<ul class="list-inline social-links">
-							<li class="list-inline-item">
-								<a target="_blank" href="#">
-									<i class="fab fa-facebook-f" aria-hidden="true"></i>
-									<span class="sr-only">Facebook</span>
-								</a>
-							</li>
-							<li class="list-inline-item">
-								<a target="_blank" href="#">
-									<i class="fab fa-twitter" aria-hidden="true"></i>
-									<span class="sr-only">Twitter</span>
-								</a>
-							</li>
-							<li class="list-inline-item">
-								<a target="_blank" href="#">
-									<i class="fab fa-linkedin" aria-hidden="true"></i>
-									<span class="sr-only">LinkedIn</span>
-								</a>
-							</li>
-							<li class="list-inline-item">
-								<a target="_blank" href="#">
-									<i class="fab fa-pinterest" aria-hidden="true"></i>
-									<span class="sr-only">Pinterest</span>
-								</a>
-							</li>
-							<li class="list-inline-item">
-								<a target="_blank" href="#">
-									<i class="fab fa-instagram" aria-hidden="true"></i>
-									<span class="sr-only">Instagram</span>
-								</a>
-							</li>
-							<li class="list-inline-item">
-								<a target="_blank" href="#">
-									<i class="fab fa-youtube" aria-hidden="true"></i>
-									<span class="sr-only">YouTube</span>
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</footer>
-			<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-				integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-				crossorigin="anonymous"></script>
-			<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-				integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-				crossorigin="anonymous"></script>
-			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-				integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-				crossorigin="anonymous"></script>
-</body>
-
-</html>
+						</div>
+						</div>
+						</div>
+						
+						<!----------------------- Footer ---------------------->
+						
+						<footer class="container-fluid">
+							<div id="footer-details" class="row">
+								<div class="col-sm-4">
+									<h5 class="uppercase general-sub">About</h5>
+									<p class="inline-block">
+										Come and enjoy The Greenway!
+									</p>
+								</div>
+								<div class="col-sm-4">
+									<h5 class="uppercase general-sub">Download Links</h5>
+									<p class="inline-block" id="bike-shop-list">
+										Bike Hire Shops
+										<a href="/assets/pdf/bike-hire.pdf" target="_blank" class="pdf-lists">
+											<i class="fas fa-bicycle" aria-hidden="true"></i>
+											<span class="sr-only">Download link.</span>
+										</a>
+									</p>
+									<p id="cafe">
+										Cafes Dungarvan
+										<a href="/assets/pdf/cafe-list.pdf" target="_blank" class="pdf-lists">
+											<i class="fas fa-mug-hot" aria-hidden="true"></i>
+											<span class="sr-only">Download link.</span>
+										</a>
+									</p>
+								</div>
+								<div class="col-sm-4">
+									<h5 class="uppercase general-sub">Social</h5>
+									<ul class="list-inline social-links">
+										<li class="list-inline-item">
+											<a target="_blank" href="#">
+												<i class="fab fa-facebook-f" aria-hidden="true"></i>
+												<span class="sr-only">Facebook</span>
+											</a>
+										</li>
+										<li class="list-inline-item">
+											<a target="_blank" href="#">
+												<i class="fab fa-twitter" aria-hidden="true"></i>
+												<span class="sr-only">Twitter</span>
+											</a>
+										</li>
+										<li class="list-inline-item">
+											<a target="_blank" href="#">
+												<i class="fab fa-linkedin" aria-hidden="true"></i>
+												<span class="sr-only">LinkedIn</span>
+											</a>
+										</li>
+										<li class="list-inline-item">
+											<a target="_blank" href="#">
+												<i class="fab fa-pinterest" aria-hidden="true"></i>
+												<span class="sr-only">Pinterest</span>
+											</a>
+										</li>
+										<li class="list-inline-item">
+											<a target="_blank" href="#">
+												<i class="fab fa-instagram" aria-hidden="true"></i>
+												<span class="sr-only">Instagram</span>
+											</a>
+										</li>
+										<li class="list-inline-item">
+											<a target="_blank" href="#">
+												<i class="fab fa-youtube" aria-hidden="true"></i>
+												<span class="sr-only">YouTube</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</footer>
+						<div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title">Sign Up now to receive our Monthly Newsletter!</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+									</div>
+									<div class="modal-body">
+										<form>
+											<div class="form-group">
+												<label for="exampleInputEmail1">Email address</label>
+												<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+												<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+											</div>
+											<div class="form-group">
+												<label for="password">Password</label>
+												<input type="password" class="form-control" id="password" placeholder="Password">
+						                        </div>
+												<div class="form-group">
+													<label for="repeatPassword">Repeat Password</label>
+													<input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+						                        </div>
+													<button type="submit" class="btn btn-success">Submit</button>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+							integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+						</script>
+						<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+							integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+						</script>
+						<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+							integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+						</script>
+						</body>
+						
+						</html>

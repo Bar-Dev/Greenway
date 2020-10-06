@@ -5,7 +5,7 @@
 body {
     padding-top: 75px;
     font-family: "Roboto", sans-serif;
-    color: #555555;
+    color: rgb(85, 85, 85);
 }
 
 /*------------------------Headings------------------------*/
@@ -52,17 +52,18 @@ hr {
     width: 50%; 
 }
 
-.navbar-colors {
-    background-color: #b9bea5;
-    color: white;
+#navbar-colors {
+    background-color: #b9bea5 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #777777;
 }
 
 a {
   color: white;
 }
-a:visited {
-  color: 8e9aaf;
-}
+
 a:hover, a:active, a:focus {
   color:#8e9aaf;
 }
@@ -108,7 +109,7 @@ img {
 
 .box .info-box {
     position: absolute;
-    z-index: 999;
+    z-index: 1;
     margin: 0;
     right: 40px;
     bottom: 40px; 
@@ -318,6 +319,9 @@ img {
     position: relative;
 }
 
+.sectionSpacing {
+    margin-top: 30px;
+}
 
 /*----------------------- Videos ------------------------*/
 
@@ -484,6 +488,21 @@ footer {
     background-color: rgba(241, 109, 107, 0);
     color: rgba(241, 109, 107, 0);
     }
+    #home {
+    background-color: rgba(4, 102, 200, 0);
+    }
+    #cafe-box { 
+    background-color: rgba(75, 218, 52, 0);
+    }
+    #bikehire { 
+    background-color: rgba(165, 84, 38, 0);
+    }
+    #occasions-box {
+    background-color: rgba(110, 54, 22, 0);
+    }
+    #route-box {
+    background-color: rgba(52, 158, 218, 0);
+}
 }
 
 @media(max-width: 405px) {
