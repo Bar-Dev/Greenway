@@ -60,13 +60,21 @@ hr {
     color: #777777;
 }
 
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item .nav-link:active,
+.navbar-light .nav-item .nav-link:focus,
+.navbar-light .nav-item:hover .nav-link {
+    color: rgb(5, 5, 5);
+}
+
+/*
 a {
   color: white;
 }
 
 a:hover, a:active, a:focus {
   color:#8e9aaf;
-}
+}*/
 
 /*------------------------Main Image------------------------*/
 
@@ -417,13 +425,14 @@ footer {
     color:gray;
     background-color:gray;
     margin-top: 40px;
+    margin-bottom: 20px;
     width: 50%;
     }
 }
 
 @media(max-width: 992px) {
     .col-sm-4 h3 {
-    margin-top: 40px;
+    margin-top: 20px;
     }
 }
 
