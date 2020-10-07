@@ -32,10 +32,16 @@ h3 i {
     margin-bottom: 10px;
 }
 
+h6 {
+    color: #555555;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+}
+
 hr {
     height:2px;
     border-width:0;
-    color:gray;
     background-color:gray;
     margin-top: 60px;
     margin-bottom: 60px;
@@ -45,15 +51,13 @@ hr {
 .spacing-video {
     height:2px;
     border-width:0;
-    color:gray;
-    background-color:gray;
     margin-top: 60px;
     margin-bottom: 30px;
     width: 50%; 
 }
 
 #navbar-colors {
-    background-color: #b9bea5 !important;
+    background-color: rgb(185, 190, 165) !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -124,6 +128,27 @@ img {
     }
 
 #home {
+    background-color: rgba(185, 190, 165, 0.8);
+    }
+
+#cafe-box { 
+    background-color: rgba(185, 190, 165, 0.8);
+    }
+
+#bikehire { 
+    background-color: rgba(185, 190, 165, 0.8);
+    }
+
+#occasions-box {
+    background-color: rgba(185, 190, 165, 0.8);
+}
+
+#route-box {
+    background-color: rgba(185, 190, 165, 0.8);
+}
+
+/*
+#home {
     background-color: rgba(4, 102, 200, 0.8);
     }
 
@@ -142,6 +167,7 @@ img {
 #route-box {
     background-color: rgba(52, 158, 218, 0.8);
 }
+*/
 
 /*------------------------Carousels------------------------*/
 
@@ -230,7 +256,7 @@ img {
 
 .route-icons {
     position: absolute;
-    z-index: 999;
+    z-index: 1;
     width: 2rem;
     height: 2rem;
     padding: 4px 0;
@@ -324,18 +350,20 @@ img {
     margin-top: 30px;
 }
 
+button:focus {
+    outline: 0;
+}
+
 /*----------------------- Videos ------------------------*/
 
 .video-box {
     text-align: center;
     width: 100%;
-    min-height: 100%px;
 }
 
 .video-spacing {
     padding-top: 30px;
 }
-
 
 /*------------------------Footer------------------------*/
 
@@ -411,31 +439,34 @@ footer {
 
 /* ----------------------------------------Media Queries */
 
+
+/* ---- Break one ---- */
+@media(max-width: 1230px) {
+    .carousel-item span {
+    background-color: rgba(241, 109, 107, 0);
+    }
+}
+
+
+/* ---- Break Two ---- */
 @media(max-width: 992px) {
     .hr-line {
     height:2px;
     border-width:0;
-    color:gray;
     background-color:gray;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     width: 50%;
     }
-}
 
-@media(max-width: 992px) {
-    .col-sm-4 h3 {
-    margin-top: 20px;
-    }
-}
-
-@media(max-width: 992px) {
     h1 {
     font-size: 32px;
     }
+
     body {
     padding-top: 72px;
     }
+
     .box .info-box {
     position: absolute;
     z-index: 999;
@@ -451,11 +482,25 @@ footer {
     text-transform: uppercase;
     font-family: "Roboto", sans-serif;
     }
+
     div > h2 {
         font-size: 21px;
     }
+
+    .route-icons {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 1.75px 0px;
+    font-size: 12px;
+    }
+
+    .carousel-button {
+    text-align: center;
+    margin-top: 10px;
+    }
 }
 
+/* ---- Break Three ---- */
 @media(max-width: 720px) {
     .box .info-box {
     position: absolute;
@@ -472,24 +517,35 @@ footer {
     text-transform: uppercase;
     font-family: "Roboto", sans-serif;
     }
+
     div > h2 {
         font-size: 13.5px;
     }
-}
 
-@media(max-width: 1230px) {
-    .carousel-item span {
-    background-color: rgba(241, 109, 107, 0);
-    color: rgba(241, 109, 107, 0);
+    .route-icons {
+    width: 1.25rem;
+    height: 1.25rem;
+    padding: 1.05px 0px;
+    font-size: 10px;
+    }
+
+    h3 {
+    font-size: 20px;
     }
 }
 
-@media(max-width: 490px) {
+
+/* ---- Break Four ---- */
+@media(max-width: 574px) {
+    .col-sm-4 h3 {
+    margin-top: 20px;
+    }
+
     .box .info-box {
-   
     background-color: rgba(241, 109, 107, 0);
     color: rgba(241, 109, 107, 0);
     }
+
     #home {
     background-color: rgba(4, 102, 200, 0);
     }
@@ -504,9 +560,16 @@ footer {
     }
     #route-box {
     background-color: rgba(52, 158, 218, 0);
-}
+    }
+    .route-icons {
+    width: 1.0rem;
+    height: 1.0rem;
+    padding: 1px 0px;
+    font-size: 8px;
+    }
 }
 
+/* ---- Break Five ---- */
 @media(max-width: 405px) {
     h1 {
     font-size: 20px;
@@ -515,4 +578,3 @@ footer {
     padding-top: 58px;
     }
 }
-
