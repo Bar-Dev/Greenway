@@ -48,16 +48,12 @@ hr {
     width: 50%;
 }
 
-.spacing-video {
-    height:2px;
-    border-width:0;
-    margin-top: 60px;
+.hr-video {
     margin-bottom: 30px;
-    width: 50%; 
 }
 
 #navbar-colors {
-    background-color: rgb(185, 190, 165) !important;
+    background-color: #b9bea5 !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -220,6 +216,31 @@ img {
     padding-top: 15px;
 }
 
+.carousel-button button:hover {
+    color: #777777;
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+   border: none !important;
+}
+
+.carousel-modal span {
+    position: absolute;
+    z-index: 999;
+    margin: 0;
+    right: 2px;
+    bottom: 5px;
+    width: 80px;
+    height: 80px;
+    padding: 0px;
+    background-color: rgba(185, 190, 165, 0.8);
+    color: #fff;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    }
+
 /*------------------------Images------------------------*/
 
 .image-border {
@@ -354,6 +375,7 @@ button:focus {
     outline: 0;
 }
 
+
 /*----------------------- Videos ------------------------*/
 
 .video-box {
@@ -397,8 +419,16 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
+.contact-list button {
+    text-align: left;
+    color: #fff;
+    padding: 0px;
+    margin: 0px;
+}
+
+
 .pdf-lists i:hover {
-    color: #3a5a40;
+    color: #2F0147;
 }
 
 #bike-shop-list {
@@ -426,7 +456,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #3a5a40;
+    background: #2F0147;
 }
 
 .list-inline-item:not(:last-child) {
@@ -444,6 +474,7 @@ footer {
 @media(max-width: 1230px) {
     .carousel-item span {
     background-color: rgba(241, 109, 107, 0);
+    color: transparent;
     }
 }
 
@@ -476,7 +507,6 @@ footer {
     width: 180px;
     height: 180px;
     padding: 10px;
-    background-color: rgba(241, 109, 107, 0.8);
     color: #fff;
     font-weight: 600;
     text-transform: uppercase;
@@ -511,7 +541,6 @@ footer {
     width: 120px;
     height: 120px;
     padding: 10px;
-    background-color: rgba(241, 109, 107, 0.8);
     color: #fff;
     font-weight: 600;
     text-transform: uppercase;
@@ -543,7 +572,7 @@ footer {
 
     .box .info-box {
     background-color: rgba(241, 109, 107, 0);
-    color: rgba(241, 109, 107, 0);
+    color: transparent;
     }
 
     #home {
