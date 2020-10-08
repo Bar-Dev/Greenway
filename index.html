@@ -437,7 +437,7 @@
 
 			<footer class="container-fluid">
 				<div id="footer-details" class="row">
-					<div class="col-sm-3 footer-spacing">
+					<div class="col-sm-2 col-md-2 footer-spacing">
 						<h5 class="uppercase general-sub">Contact</h5>
 						<div class="contact-list">
 							<button type="button" class="btn" data-toggle="modal" data-target="#businessContact">Business</button>
@@ -446,7 +446,7 @@
 							<button type="button" class="btn" data-toggle="modal" data-target="#publicContact" data-whatever="@fat">Public</button>
 						</div>
 					</div>
-					<div class="col-sm-6 footer-spacing" id="footer-middle">
+					<div class="col-sm-4 col-md-6 footer-spacing" id="footer-middle">
 						<h5 class="uppercase general-sub">Download Links</h5>
 						<p class="inline-block" id="bike-shop-list">
 							Bike Hire Shops <i class="fas fa-long-arrow-alt-right"></i>
@@ -463,7 +463,7 @@
 							</a>
 						</p>
 					</div>
-					<div class="col-sm-3 footer-spacing" id="footer-right">
+					<div class="col-sm-6 col-md-4 footer-spacing" id="footer-right">
 						<h5 class="uppercase general-sub">Social</h5>
 						<ul class="list-inline social-links">
 							<span class="social-link-spacing">
@@ -511,6 +511,8 @@
 				</div>
 			</footer>
 
+			<!-- ==================== Modals ==================== -->            
+
 			<div class="modal" tabindex="-1" role="dialog" id="signUpModal">
 				<div class="modal-dialog" role="document">
 					<div class="modal-content">
@@ -547,7 +549,7 @@
 							<form>
 								<div class="form-group">
 									<label for="exampleInputEmail1">Email address</label>
-									<input type="email" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp" placeholder="Enter email">
+									<input type="email" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp" placeholder="Enter email" required>
 									<small id="emailHelp1" class="form-text text-muted">Please provide your email and we will be in touch shortly</small>
 								</div>
 								<button type="submit" class="btn btn-success">Submit</button>
@@ -571,7 +573,7 @@
 							<form>
 								<div class="form-group">
 									<label for="recipient-name" class="col-form-label">Name:</label>
-									<input type="text" class="form-control" id="recipient-name">
+									<input type="text" class="form-control" id="recipient-name" required>
                                     </div>
 									<div class="form-group">
 										<label for="message-text" class="col-form-label">Feedback:</label>
@@ -581,7 +583,7 @@
 						</div>
 						<div class="modal-footer">
 							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-							<button type="button" class="btn btn-primary" >Send message</button>
+							<button type="button" class="btn btn-primary">Send message</button>
 						</div>
 					</div>
 				</div>

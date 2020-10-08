@@ -462,6 +462,14 @@ footer {
     text-align: center;
 }
 
+.modal-footer .btn-secondary {
+    background-color: #777777;
+}
+
+.modal-footer .btn-primary {
+    background-color: #555555;
+}
+
 /* ----------------------------------------Media Queries */
 
 
@@ -492,7 +500,7 @@ footer {
 
 @media(max-width: 1007px) {
     .social-link-spacing {
-    display: block;
+    display: inline-block;
     margin-top: 5px;
     }
     }
@@ -546,6 +554,11 @@ footer {
     text-align: center;
     margin-top: 10px;
     }
+
+    #footer-middle {
+    text-align: left;
+    padding-right: 0px;
+}
 }
 
 /* ---- Break Three ---- */
