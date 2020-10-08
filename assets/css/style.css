@@ -459,7 +459,11 @@ footer {
 }
 
 #footer-right {
-    text-align: center;
+    text-align: left;
+}
+
+#footer-right h5 {
+    text-align: right;
 }
 
 .modal-footer .btn-secondary {
@@ -468,6 +472,10 @@ footer {
 
 .modal-footer .btn-primary {
     background-color: #555555;
+}
+
+.social-links {
+    text-align: right;
 }
 
 /* ----------------------------------------Media Queries */
@@ -557,12 +565,16 @@ footer {
 
     #footer-middle {
     text-align: left;
-    padding-right: 0px;
-}
+    padding-left: 0px;
+    }
+
+    .social-link-spacing {
+    text-align: right;
+    }
 }
 
 /* ---- Break Three ---- */
-@media(max-width: 720px) {
+@media(max-width: 767px) {
     .box .info-box {
     position: absolute;
     z-index: 999;
@@ -592,6 +604,22 @@ footer {
     h3 {
     font-size: 20px;
     }
+
+    #footer-middle {
+    text-align: center;
+    padding-right: 25px;
+    }
+
+    .social-link-spacing {
+    display: block;
+    margin-top: 5px;
+    text-align: right;
+    }
+
+    #footer-right h5 {
+    text-align: right;
+    }
+
 }
 
 
@@ -633,7 +661,21 @@ footer {
     }
     #footer-right {
     text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 0px;
     }
+    #footer-middle {
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 20px;
+    }
+    #footer-right h5 {
+    text-align: left;
+    }
+    .social-links {
+    text-align: left;
+}
 }
 
 /* ---- Break Five ---- */
