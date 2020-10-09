@@ -1,4 +1,7 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<h1>Walk, Run, Cycle, Explore - THE GREENWAY</h1>
+
+
+<img src="./images/multi-screen.png" style="margin: 0;">
 
 Welcome Bar-Dev,
 
