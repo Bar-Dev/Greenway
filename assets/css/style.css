@@ -226,6 +226,11 @@ img {
    border: none !important;
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 1;
+}
+
 
 /*------------------------Images------------------------*/
 
@@ -695,6 +700,12 @@ footer {
     left: 70%;
     bottom: 76.5%;
     }
+
+    .carousel-content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    }
 }
 
 
@@ -762,6 +773,11 @@ footer {
     #route-icon-one {
     left: 23.1%;
     bottom: 16.5%;
+    }
+    .carousel-content {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     }
 }
 
