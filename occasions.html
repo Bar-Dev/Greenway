@@ -1,238 +1,281 @@
 <!DOCTYPE html>
 <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+         type="text/css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+         type="text/css" />
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+         integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <title>The Greenway</title>
+   </head>
+   <body>
+      <header>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-		type="text/css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
-		type="text/css" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
-		integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-	<link rel="stylesheet" href="assets/css/style.css">
-	<title>The Greenway</title>
-</head>
+         <!-- ==================== Navbar ==================== -->
 
-<body>
-	<header>
+         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" id="navbar-colors">
+            <a class="navbar-brand" href="index.html">
+               <h1>The Greenway</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Amenities
+                     </a>
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="cafes.html">Cafe's
+                        <i class="fas fa-mug-hot" aria-hidden="true"></i></a>
+                        <a class="dropdown-item" href="bikehire.html">Bike Hire
+                        <i class="fas fa-bicycle" aria-hidden="true"></i></a>
+                     </div>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="route.html">Route</a>
+                  </li>
+                  <li class="nav-item active">
+                     <a class="nav-link" href="occasions.html">Occasions</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#" data-toggle="modal" data-target="#signUpModal">Sign Up</a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+      </header>
 
-<!-- ==================== Navbar ==================== -->
+      <!-- ==================== Main Image ==================== -->
 
-		<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" id="navbar-colors">
-			<a class="navbar-brand" href="index.html">
-				<h1>The Greenway</h1>
-			</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-			<div class="collapse navbar-collapse" id="navbarNavDropdown">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Amenities
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item" href="cafes.html">Cafe's
-								<i class="fas fa-mug-hot" aria-hidden="true"></i></a>
-							<a class="dropdown-item" href="bikehire.html">Bike Hire
-								<i class="fas fa-bicycle" aria-hidden="true"></i></a>
-						</div>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="route.html">Route</a>
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="occasions.html">Occasions</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#" data-toggle="modal" data-target="#signUpModal">Sign Up</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-	</header>
+      <section>
+         <div class="display-container content box" style="max-width:1600px;">
+            <img class="home-image" src="./images/comeragh-snow.JPG" alt="Comeraghs in Winter" width="1600" height="800">
+            <div class="info-box d-xs-block" id="occasions-box">
+               <h2>Walk<br>
+                  Cycle<br>
+                  Run<br>
+                  Explore<br>
+                  <br>
+                  The Greenway
+               </h2>
+            </div>
+         </div>
+      </section>
 
-<!-- ==================== Main Image ==================== -->
+      <!-- ==================== Videos ==================== -->
 
-	<section>
-		<div class="display-container content box" style="max-width:1600px;">
-			<img class="home-image" src="./images/comeraghs-snow.jpg" alt="Comeraghs in Winter" width="1600" height="800">
-			<div class="info-box d-xs-block" id="occasions-box">
-				<h2>Walk<br>
-                    Cycle<br>
-                    Run<br>
-                    Explore<br>
-					<br>
-					The Greenway</h2>
-			</div>
-		</div>
-	</section>
+      <hr class="hr-video">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-6 video-spacing">
+               <h3><i class="fas fa-spider"></i> Halloween</h3>
+               <div class="container">
+                  <div class="row list-margin">
+                     <div class="col-md-12">
+                        <iframe width="460" height="260" class="video-box"
+                           src="https://www.youtube.com/embed/YCWfeD84XSo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                           allowfullscreen></iframe>
+                     </div>
+                     <div class="col-md-12 text-content">
+                        <p>
+                           Experience the Spooky Scenes of the Ballyvoyle Tunnel<br>at Halloween
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-6 video-spacing">
+               <h3><i class="fas fa-sleigh"></i> Christmas</h3>
+               <div class="container">
+                  <div class="row list-margin">
+                     <div class="col-md-12 video-box">
+                        <iframe width="460" height="260" class="video-box"
+                           src="https://www.youtube.com/embed/SWNGX-Kary0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                           allowfullscreen></iframe>
+                     </div>
+                     <div class="col-md-12 text-content">
+                        <p>
+                           Get into the Festive Season and join in on the annual<br> Santa Cycle on the Greenway
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr>
 
-<!-- ==================== Videos ==================== -->
+      <!-- ==================== Footer ==================== -->
 
-	<hr class="hr-video">
+      <footer class="container-fluid">
+         <div id="footer-details" class="row">
+            <div class="col-sm-3 col-md-2 footer-spacing">
+               <h5 class="uppercase general-sub">Contact</h5>
+               <div class="contact-list">
+                  <button type="button" class="btn" data-toggle="modal" data-target="#businessContact">Business</button>
+               </div>
+               <div class="contact-list">
+                  <button type="button" class="btn" data-toggle="modal" data-target="#publicContact" data-whatever="@fat">Public</button>
+               </div>
+            </div>
+            <div class="col-sm-6 col-md-6 footer-spacing" id="footer-middle">
+               <h5 class="uppercase general-sub">Download Links</h5>
+               <p class="inline-block" id="bike-shop-list">
+                  Bike Hire Shops <i class="fas fa-long-arrow-alt-right"></i>
+                  <a href="/assets/pdf/bike-hire.pdf" target="_blank" class="pdf-lists">
+                  <i class="fas fa-bicycle" aria-hidden="true"></i>
+                  <span class="sr-only">Download link.</span>
+                  </a>
+               </p>
+               <p id="cafe">
+                  Cafes Dungarvan <i class="fas fa-long-arrow-alt-right"></i>
+                  <a href="/assets/pdf/cafe-list.pdf" target="_blank" class="pdf-lists">
+                  <i class="fas fa-mug-hot" aria-hidden="true"></i>
+                  <span class="sr-only">Download link.</span>
+                  </a>
+               </p>
+            </div>
+            <div class="col-sm-3 col-md-4 footer-spacing" id="footer-right">
+               <h5 class="uppercase general-sub">Social</h5>
+               <ul class="list-inline social-links">
+                  <span class="social-link-spacing">
+                     <li class="list-inline-item">
+                        <a target="_blank" href="https://www.facebook.com/">
+                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                        </a>
+                     </li>
+                     <li class="list-inline-item">
+                        <a target="_blank" href="https://twitter.com/?lang=en">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                        <span class="sr-only">Twitter</span>
+                        </a>
+                     </li>
+                     <li class="list-inline-item">
+                        <a target="_blank" href="https://ie.linkedin.com/">
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        <span class="sr-only">LinkedIn</span>
+                        </a>
+                     </li>
+                  </span>
+                  <span class="social-link-spacing">
+                     <li class="list-inline-item">
+                        <a target="_blank" href="https://www.pinterest.com/">
+                        <i class="fab fa-pinterest" aria-hidden="true"></i>
+                        <span class="sr-only">Pinterest</span>
+                        </a>
+                     </li>
+                     <li class="list-inline-item">
+                        <a target="_blank" href="https://www.instagram.com/?hl=en">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                        </a>
+                     </li>
+                     <li class="list-inline-item">
+                        <a target="_blank" href="https://www.youtube.com/">
+                        <i class="fab fa-youtube" aria-hidden="true"></i>
+                        <span class="sr-only">YouTube</span>
+                        </a>
+                     </li>
+                  </span>
+               </ul>
+            </div>
+         </div>
+      </footer>
 
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6 video-spacing">
-				<h3><i class="fas fa-spider"></i> Halloween</h3>
-				<div class="container">
-					<div class="row list-margin">
-						<div class="col-md-12">
-							<iframe width="460" height="260" class="video-box"
-								src="https://www.youtube.com/embed/YCWfeD84XSo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-								allowfullscreen></iframe>
-						</div>
-						<div class="col-md-12 text-content">
-							<p>
-								Experience the Spooky Scenes of the Ballyvoyle Tunnel<br>at Halloween
-                                </p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6 video-spacing">
-				<h3><i class="fas fa-sleigh"></i> Christmas</h3>
-				<div class="container">
-					<div class="row list-margin">
-						<div class="col-md-12 video-box">
-							<iframe width="460" height="260" class="video-box"
-								src="https://www.youtube.com/embed/SWNGX-Kary0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-								allowfullscreen></iframe>
-						</div>
-						<div class="col-md-12 text-content">
-							<p>
-								Get into the Festive Season and join in on the annual<br> Santa Cycle on the Greenway
-                                </p>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</div>
-
-
-	<hr>
-
-<!-- ==================== Footer ==================== -->
-
-	<footer class="container-fluid">
-				<div id="footer-details" class="row">
-					<div class="col-sm-3 col-md-2 footer-spacing">
-						<h5 class="uppercase general-sub">Contact</h5>
-						<div class="contact-list">
-							<button type="button" class="btn" data-toggle="modal" data-target="#businessContact">Business</button>
-						</div>
-						<div class="contact-list">
-							<button type="button" class="btn" data-toggle="modal" data-target="#publicContact" data-whatever="@fat">Public</button>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-6 footer-spacing" id="footer-middle">
-						<h5 class="uppercase general-sub">Download Links</h5>
-						<p class="inline-block" id="bike-shop-list">
-							Bike Hire Shops <i class="fas fa-long-arrow-alt-right"></i>
-							<a href="/assets/pdf/bike-hire.pdf" target="_blank" class="pdf-lists">
-								<i class="fas fa-bicycle" aria-hidden="true"></i>
-								<span class="sr-only">Download link.</span>
-							</a>
-						</p>
-						<p id="cafe">
-							Cafes Dungarvan <i class="fas fa-long-arrow-alt-right"></i>
-							<a href="/assets/pdf/cafe-list.pdf" target="_blank" class="pdf-lists">
-								<i class="fas fa-mug-hot" aria-hidden="true"></i>
-								<span class="sr-only">Download link.</span>
-							</a>
-						</p>
-					</div>
-					<div class="col-sm-3 col-md-4 footer-spacing" id="footer-right">
-						<h5 class="uppercase general-sub">Social</h5>
-						<ul class="list-inline social-links">
-							<span class="social-link-spacing">
-                            <li class="list-inline-item">
-								<a target="_blank" href="https://www.facebook.com/">
-									<i class="fab fa-facebook-f" aria-hidden="true"></i>
-									<span class="sr-only">Facebook</span>
-								</a>
-							</li>
-							<li class="list-inline-item">
-								<a target="_blank" href="https://twitter.com/?lang=en">
-									<i class="fab fa-twitter" aria-hidden="true"></i>
-									<span class="sr-only">Twitter</span>
-								</a>
-							</li>
-							<li class="list-inline-item">
-								<a target="_blank" href="https://ie.linkedin.com/">
-									<i class="fab fa-linkedin" aria-hidden="true"></i>
-									<span class="sr-only">LinkedIn</span>
-								</a>
-							</li>
-                            </span>
-                            <span class="social-link-spacing">
-							<li class="list-inline-item">
-								<a target="_blank" href="https://www.pinterest.com/">
-									<i class="fab fa-pinterest" aria-hidden="true"></i>
-									<span class="sr-only">Pinterest</span>
-								</a>
-							</li>
-							<li class="list-inline-item">
-								<a target="_blank" href="https://www.instagram.com/?hl=en">
-									<i class="fab fa-instagram" aria-hidden="true"></i>
-									<span class="sr-only">Instagram</span>
-								</a>
-							</li>
-							<li class="list-inline-item">
-								<a target="_blank" href="https://www.youtube.com/">
-									<i class="fab fa-youtube" aria-hidden="true"></i>
-									<span class="sr-only">YouTube</span>
-								</a>
-							</li>
-                            </span>
-						</ul>
-					</div>
-				</div>
-			</footer>
-
-            
-	<div class="modal" tabindex="-1" role="dialog" id="signUpModal">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title">Enter email to receive our Monthly Newsletter!</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						          <span aria-hidden="true">&times;</span>
-						        </button>
-				</div>
-				<div class="modal-body">
-					<form>
-						<div class="form-group">
-							<label for="exampleInputEmail1">Email address</label>
-							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-							<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-						</div>
-						<button type="submit" class="btn btn-success">Submit</button>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-	</script>
-</body>
-
+      <!-- ==================== Modals ==================== -->     
+             
+      <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+         <div class="modal-dialog" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title">Enter email to receive our Monthly Newsletter!</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body">
+                  <form>
+                     <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                     </div>
+                     <button type="submit" class="btn btn-success">Submit</button>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="modal" tabindex="-1" role="dialog" id="businessContact">
+         <div class="modal-dialog" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title">Would you like your business listed?</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body">
+                  <form>
+                     <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp" placeholder="Enter email" required>
+                        <small id="emailHelp1" class="form-text text-muted">Please provide your email and we will be in touch shortly</small>
+                     </div>
+                     <button type="submit" class="btn btn-success">Submit</button>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="modal fade" id="publicContact" tabindex="-1" aria-labelledby="feedbackForm"
+         aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="feedbackForm">Would you like to leave some Feedback?</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body">
+                  <form>
+                     <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Name:</label>
+                        <input type="text" class="form-control" id="recipient-name" required>
+                     </div>
+                     <div class="form-group">
+                        <label for="message-text" class="col-form-label">Feedback:</label>
+                        <textarea class="form-control" id="message-text"></textarea>
+                     </div>
+                  </form>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Send message</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+   </body>
 </html>

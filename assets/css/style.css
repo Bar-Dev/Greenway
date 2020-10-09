@@ -515,13 +515,9 @@ footer {
 
 /* ---- Break Two ---- */
 @media(max-width: 992px) {
-    .hr-line {
-    height:2px;
-    border-width:0;
-    background-color:gray;
+    hr {
     margin-top: 30px;
     margin-bottom: 30px;
-    width: 50%;
     }
 
     h1 {
@@ -571,6 +567,38 @@ footer {
     .social-link-spacing {
     text-align: right;
     }
+    .route-image-properties {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: auto;
+    width: 90%;
+    }
+
+    #route-icon-one {
+    left: 24%;
+    bottom: 16.2%;
+    }
+
+    #route-icon-two {
+    left: 35%;
+    bottom: 19.8%;
+    }
+
+    #route-icon-three {
+    left: 44.3%;
+    bottom: 51.8%;
+    }
+
+    #route-icon-four {
+    left: 62%;
+    bottom: 68%;
+    }
+
+    #route-icon-five {
+    left: 69.5%;
+    bottom: 76.2%;
+    }  
 }
 
 /* ---- Break Three ---- */
@@ -620,6 +648,43 @@ footer {
     text-align: right;
     }
 
+    hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    }
+
+    .route-image-properties {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: auto;
+    width: 95%;
+    }
+
+    #route-icon-one {
+    left: 23%;
+    bottom: 15.8%;
+    }
+
+    #route-icon-two {
+    left: 35%;
+    bottom: 19.8%;
+    }
+
+    #route-icon-three {
+    left: 43.7%;
+    bottom: 51.5%;
+    }
+
+    #route-icon-four {
+    left: 62%;
+    bottom: 68%;
+    }
+
+    #route-icon-five {
+    left: 70%;
+    bottom: 76.5%;
+    }
 }
 
 
@@ -675,7 +740,19 @@ footer {
     }
     .social-links {
     text-align: left;
-}
+    }
+    hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    #route-icon-five {
+    left: 71%;
+    bottom: 76.5%;
+    }
+    #route-icon-one {
+    left: 23.1%;
+    bottom: 16.5%;
+    }
 }
 
 /* ---- Break Five ---- */
