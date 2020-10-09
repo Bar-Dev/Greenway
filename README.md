@@ -1,44 +1,55 @@
 <h1>Walk, Run, Cycle, Explore - THE GREENWAY</h1>
 
-
 <img src="./images/multi-screen.png" style="margin: 0;">
 
-Welcome Bar-Dev,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+**<h2>Introduction</h2>**
 
-## Gitpod Reminders
+The picturesque Waterford Greenway hugs the coastline as it 
+follows old railway lines 46km long from lively Waterford City, through the 
+foothills of the Comeragh Mountains and onto the pretty harbour town 
+of Dungarvan. You can walk part of the way, cycle in both directions 
+or cycle one way and get the bus back to Waterford from Dungarvan.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The Greenway website aims to provide users with all the knowledge they
+need or require of all the Sights, Attractions and Amenities available to 
+them along the way. 
 
-`python3 -m http.server`
+The website can be viewed on Desktop, Tablet and Mobile devices. Click <a href="https://bar-dev.github.io/Greenway">here</a> to view.
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
+**<h2>Table of Content</h2>**
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+<ol>
+    <li>UX</li>
+        <ul style="list-style-type:circle;">
+            <li>Goals</li>
+            <ul style="list-style-type:disc;">
+                <li>Greenway Goals</li>
+                <li>Customer Goals</li>
+                <li>Business Goals</li>
+            </ul>
+            <li>User Stories</li>
+            <ul style="list-style-type:disc;">
+                <li>Fitness & Well-Being</li>
+                <li>The Potential Customer</li>
+                <li>The UX Designer</li>
+            </ul>
+            <li>Design</li>
+            <ul style="list-style-type:disc;">
+                <li>Colors</li>
+                <li>Font</li>
+            </ul>
+            <li>Wireframes</li>
+        </ul>
+    <li>Features</li>
+        <ul style="list-style-type:circle;">
+            <li>Existing Features</li>
+            <li>Features left to implement</li>
+            <li>Plans for Future Fixes</li>
+        </ul>
+    <li>Technologies</li>
+    <li>Deployment</li>
+    <li>Testing</li>
+    <li>Credits</li>
+</ol>
