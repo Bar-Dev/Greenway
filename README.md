@@ -154,3 +154,193 @@ Font weights used were:
 
 ### Wireframes
 
+With the help of [figma](https://www.figma.com/) I produced mockups of the proposed website starting with a mobile first approach.
+
+Links to the mockups can be found [here](https://www.figma.com/file/0RxmmzdVcdvmkA27svyg0z/Greenway?node-id=0%3A1) where you will find the full design 
+proposal for each page. I tried my best to adhere to the initail proposal only changing things if seen as an additional improvement to the overall
+website.
+
+If you cannot access the mockups via the link above you can view them [here](https://github.com/Bar-Dev/Greenway/tree/master/documentation/wireframes)
+
+
+## Features
+
+### Existing Features
+
+#### Home Page
+
+* **Layout and Style**
+    * I wanted the website to give an immediate feel of where the location of the Greenway was as well as a nice light smooth visual approach. I feel the choice of image used
+    on the Home page achieves both of these requirements. I added text boxes into the images on each main page to give that extra bit of information so
+    that users know what the website is about from the start. 
+    * I kept the amount of text used to a minimum in order to provide the information to the users through a more visual approach and just using text where appropiate. The 
+    combination of limited text and visual images allowed for me to design the site in a way that uses all retail space of the site as best I could and not having any blank areas 
+    on any pages. 
+    * Careful detail was applied to the responsivness of the site to further ensure all retail space sized correctly and not leaving any blank areas.
+
+* **Navigation Bar**
+    * The naviagtion bar has a fixed position on all pages to allow for easy constant use. 
+    * On small screen widths the navbar items reduce to a burger sytle icon that provides them with a dropdown list when clicked.
+    * The Laurel Green color was used on the navbar to keep in touch with the overall theme of the Greenway.
+    * The "Sign Up" button on the Navbar allows users to sign up to the website with their email in order to receive a monthly newsletter about all 
+    upcoming activities.
+
+* **Footer**
+    * Contact information: 
+        * The "Business" contact button provides a popup Modal allowing business owners to contact me about advertisement.
+        * The "Public" contact button provides a popup Modal allowing them to provide their own Feedback on the Greenway.
+    * Download Links provide the user with a downloadable version of all the Cafe's or Bike Hire shops in PDF format that they can either save to their
+    device or print out.
+    * Social section provides links to all relevant social media sites (currently linked to login pages of each)
+    * All clickable text or icons on the footer section change to Russian Violet color when hovered over.
+
+* **Carousels**
+    * The Home page consists of three carousels relating to different aspects of the Greenway. As the size of the carousels will get smaller on some screens 
+    I have provided a clickable text button under each one that brings up a Modal with a larger carousel of the same images.
+
+* **Feedback**
+    * I have provided a Feedback section to the Home page so users can see first hand information from others of their experiences.
+
+
+#### Amenities
+
+**Cafe's**
+* The Cafe page provides a visual list of all local Coffee shops and pubs that have signed up to the website.
+* Addressess and contact details are also provided under the images.
+**Bike Hire**
+* The Bike Hire page provides a visual list of all local Bike Hire shops that have signed up to the website.
+* Addressess and contact details are also provided under the images.
+
+
+#### Route
+
+* The Route page displays a map of the full Greenway route from Dungarvan to Waterford.
+* I have implemented numbered icons to the map that once clicked provide the user with a popup Modal with an image of what they can expect to find
+at that location.
+* On hover the icons turn to Laurel Green with the text turning to White.
+
+
+#### Occasions
+
+* The Occasions page consists of two video boxes allowing the user to Play and Pause the video.
+* The user can also adjust the volume of the audio from within the video boxes.
+
+
+### Features left to implement
+
+* Different Languages - While the website is full of visual information I would still like to be able to implement a list of countries so the website would display 
+all text in a language native to that country. 
+* Tracking - I would like to install analytical tools to properly monitor what pages the users are most frequently visiting to help provide this data to businesses
+* Feedback - I would like to expand on the current feedback section. The current Modal does not send the information anywhere at present. I would like to have a much more 
+expandable section allowing users feedback to be published straight on the website.
+
+
+### Plans for future releases
+
+* Cafe's and Bike Hire Shops - I would like to add links to the lists of individual shops that once clicked provide you with the exact location on a popup map
+of the shop you are trying to find.
+* Social Media - The current social media links are only general links to login pages. I want to have relevant information on those links further expanding The Greenway
+information.
+* Feedback - I want to expand the feedback section so the businesses can have their own relevant feedback for their own premises.
+
+
+## Technologies
+
+### Languages
+
+* HTML - base language for this project.
+* CSS - used for styling the HTML code.
+* JavaScript - used with Bootstrap for Modals
+
+### Libaries
+
+* [Bootstrap](https://getbootstrap.com/) - used for responsive grid system, styling and modals.
+* [FontAwseome](https://fontawesome.com/) - used for all icons on the site.
+* [Google Fonts](https://fonts.google.com/) - used for the Pacifico fonts.
+* [Favicon.io](https://favicon.io/) - used for creating a favicon.
+
+### Tools
+
+* [Gitpod](https://www.gitpod.io) - used as IDE for this project.
+* [Git](https://git-scm.com/) - used for version control.
+* [Github](https://github.com/) - used to host repository and live website.
+* [Figma](https://www.figma.com/) - used for creation of mockups.
+* [Am I Responsive](http://ami.responsivedesign.is/) - used for testing purposes as well as creating the image to display the web pages on different devices.
+* [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - used for testing and debugging.
+* [w3 html validator](https://validator.w3.org/) - used to test and validate my html code.
+* [w3 css validator](https://jigsaw.w3.org/) - used to test and validate my css code.
+* [Free Formatter](https://www.freeformatter.com/) - used to format my html, css and javascript code.
+* [Coolors](http://coolors.co/) - used to test colour combinations.
+
+
+## Deployment
+
+This web app was developed in Gitpod and pushed to the remote repository, GitHub. The live page is hosted on GitHub Pages. 
+
+**Used commands during deployment:**
+* `git add .` - to add the files to the staging area.
+* `git commit -m "text message here"` - to commit the files.
+* `git push` - to push to origin master branch on to GitHub.
+* `git status` - to see the current status of the files.
+
+### Hosting on GitHub Pages
+
+* Log into GitHub.
+* From the list of repositories choose [The Greenway](https://github.com/Bar-Dev/Greenway).
+* Go to settings.
+* Scroll down to GitHub Pages section.
+* Select as a source **master branch**.
+* The page is now automatically refreshed and the project is deployed.
+* To access the project scroll down again to GitHub Pages section and click on the provided link.
+
+For more detailed information regarding deployment to GitHub Pages click [here](https://pages.github.com/).
+
+
+## Credits
+
+### Content
+
+All content in this web app was written by me.
+
+### Media
+
+**Images**
+   * [Waterford Greenway Bike Hire](https://www.waterfordgreenwaybikehire.com/)
+   * [The Park Hotel](https://www.parkhoteldungarvan.com/waterford-greenway.html)
+   * [The Irish Times](https://www.irishtimes.com/life-and-style/travel/ireland/waterford-s-46km-greenway-opens-for-cyclists-and-walkers-1.3022201)
+   * [Nire Valley Eco Camp](https://nirevalleyecocamp.com/waterford-greenway-bike-hire/)
+   * [Outsider.ie](https://outsider.ie/ireland/waterford-greenway/)
+   * [USI.ie](https://usi.ie/waterford-city-night-view/)
+   * [Irish Cycle](https://irishcycle.com/2016/11/08/review-images-waterford-greenway/waterford-greenway-ballyvoyle-tunnel-2/)
+   * [Deise Greenway](https://www.facebook.com/deise.greenway/?hc_ref=ARQP6-oj4Su7JsDCeZf7mrUEBj4BDpJlfvKaKpvvRfhJb_HOkt2H1RMqUbIpL8hdp_0&fref=nf&__tn__=kC-R)
+   * [Bizlocator](https://bizlocator.ie/listings/omahonys-bar-shop/)
+   * [Coach House Coffee](https://www.coachhousecoffee.ie/)
+   * [CNN](https://edition.cnn.com/2019/06/03/health/coffee-heart-health-arteries-scli-intl-gbr/index.html)
+
+**Videos**
+   * [Daithi Ó Raghallaigh](https://www.youtube.com/watch?v=YCWfeD84XSo&feature=youtu.be)
+   * [Deise Greenway](https://www.facebook.com/deise.greenway/)
+
+### Acknowledgements
+
+#### Tutorials
+
+* [Code Institute](https://codeinstitute.net/) - I used a lot of the course content to help me building my site
+
+#### Pages used for information
+
+* [W3schools](https://www.w3schools.com/)
+* [W3C](https://www.w3.org/)
+* [Stack overflow](https://stackoverflow.com/)
+* [CSS-Tricks](https://css-tricks.com/)
+
+#### I received advice and encouragement from
+   * Seun Owonikoko (Mentor)
+   * JimLynx (Slack Webinars and Forum help)
+   * Kamil Zok (Slack Forum help)
+
+
+## DISCLAIMER: 
+This project is for educational purposes only, no materials/files are intended for any commercial use. 
+In this document all sources will be credited.
+
