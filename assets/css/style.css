@@ -60,14 +60,6 @@ hr {
     color: #777777;
 }
 
-/*
-a {
-  color: white;
-}
-
-a:hover, a:active, a:focus {
-  color:#8e9aaf;
-}*/
 
 /*------------------------Main Image------------------------*/
 
@@ -123,47 +115,10 @@ img {
     font-family: "Roboto", sans-serif;
     }
 
-#home {
+.text-box-color {
     background-color: rgba(185, 190, 165, 0.8);
     }
 
-#cafe-box { 
-    background-color: rgba(185, 190, 165, 0.8);
-    }
-
-#bikehire { 
-    background-color: rgba(185, 190, 165, 0.8);
-    }
-
-#occasions-box {
-    background-color: rgba(185, 190, 165, 0.8);
-}
-
-#route-box {
-    background-color: rgba(185, 190, 165, 0.8);
-}
-
-/*
-#home {
-    background-color: rgba(4, 102, 200, 0.8);
-    }
-
-#cafe-box { 
-    background-color: rgba(75, 218, 52, 0.8);
-    }
-
-#bikehire { 
-    background-color: rgba(165, 84, 38, 0.8);
-    }
-
-#occasions-box {
-    background-color: rgba(110, 54, 22, 0.8);
-}
-
-#route-box {
-    background-color: rgba(52, 158, 218, 0.8);
-}
-*/
 
 /*------------------------Carousels------------------------*/
 
@@ -213,8 +168,10 @@ img {
 }
 
 .carousel-button button {
-    border: 2px solid #b9bea5;
+    border: none;
     border-radius: 20px;
+    background-color: #b9bea5;
+    color: #fff;
 }
 
 .small-box-text span {
@@ -223,7 +180,7 @@ img {
 
 .carousel-button button:hover {
     color: #fff;
-    background-color: #555555;
+    background-color: #777777;
 }
 
 .btn:focus,.btn:active {
@@ -349,15 +306,15 @@ img {
 }
 
 .iconImage {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
 }
 
 .iconImage::after {
-  display: block;
-  clear: both;
-  content: "";
+    display: block;
+    clear: both;
+    content: "";
 }
 
 .image-style {
@@ -413,7 +370,7 @@ footer {
 }
 
 .cite-style::before {
-  content: "\2014\00A0";
+    content: "\2014\00A0";
 }
 
 .pdf-lists i {
@@ -490,14 +447,33 @@ footer {
 
 .modal-footer .btn-secondary {
     background-color: #777777;
+    border: none;
+    border-radius: 20px;
+}
+
+.modal-footer .btn-secondary:hover {
+    background-color: #b9bea5;
 }
 
 .modal-footer .btn-primary {
     background-color: #555555;
+    border: none;
+    border-radius: 20px;
+}
+
+.modal-footer .btn-primary:hover {
+    border: none;
+    background-color: #b9bea5;
 }
 
 .modal-footer .btn-success {
     background-color: #777777;
+    border: none;
+    border-radius: 20px;
+}
+
+.modal-footer .btn-success:hover {
+    background-color: #b9bea5;
 }
 
 .social-links {
@@ -732,21 +708,26 @@ footer {
     color: transparent;
     }
 
-    #home {
+    .text-box-color {
     background-color: rgba(4, 102, 200, 0);
     }
+
     #cafe-box { 
     background-color: rgba(75, 218, 52, 0);
     }
+
     #bikehire { 
     background-color: rgba(165, 84, 38, 0);
     }
+
     #occasions-box {
     background-color: rgba(110, 54, 22, 0);
     }
+
     #route-box {
     background-color: rgba(52, 158, 218, 0);
     }
+
     .route-icons {
     width: 1.0rem;
     height: 1.0rem;

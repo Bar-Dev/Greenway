@@ -63,7 +63,7 @@
       <section>
          <div class="display-container content box" style="max-width:1600px;">
             <img class="home-image" src="./images/family-bikers.jpg" alt="Dungarvan Greenway Sign" width="1600" height="800">
-            <div class="info-box d-xs-block" id="bikehire">
+            <div class="info-box d-xs-block text-box-color">
                <h2>Walk<br>
                   Cycle<br>
                   Run<br>
@@ -227,8 +227,8 @@
          </div>
       </footer>
 
-      <!-- ==================== Modals ==================== -->   
-               
+      <!-- ==================== Modals ==================== -->      
+
       <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
          <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -242,10 +242,12 @@
                   <form>
                      <div class="form-group">
                         <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                      </div>
+                     <div class="modal-footer">
                      <button type="submit" class="btn btn-success">Submit</button>
+                     </div>
                   </form>
                </div>
             </div>
@@ -267,7 +269,9 @@
                         <input type="email" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp" placeholder="Enter email" required>
                         <small id="emailHelp1" class="form-text text-muted">Please provide your email and we will be in touch shortly</small>
                      </div>
+                     <div class="modal-footer">
                      <button type="submit" class="btn btn-success">Submit</button>
+                     </div>
                   </form>
                </div>
             </div>
@@ -293,11 +297,12 @@
                         <label for="message-text" class="col-form-label">Feedback:</label>
                         <textarea class="form-control" id="message-text"></textarea>
                      </div>
-                  </form>
-               </div>
+                  
                <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary" data-dismiss="modal">Send message</button>
+                  <button type="submit" class="btn btn-primary">Send message</button>
+               </div>
+               </form>
                </div>
             </div>
          </div>
