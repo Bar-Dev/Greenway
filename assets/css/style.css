@@ -438,7 +438,7 @@ footer {
 }
 
 #footer-right {
-    text-align: left;
+    text-align: right;
 }
 
 #footer-right h5 {
@@ -482,13 +482,9 @@ footer {
 
 .social-link-spacing {
     display: inline-block;
-    margin: 0px;
-    padding-right: 0px;
 }
 
-ul .social-link-spacing {
-    padding-inline-start: 0px;
-}
+
 /* ----------------------------------------Media Queries */
 
 
@@ -654,6 +650,11 @@ ul .social-link-spacing {
     display: block;
     margin-top: 5px;
     text-align: right;
+    }
+
+    .social-links {
+    margin-bottom: 5px;
+    padding-bottom: 0px;
     }
 
     #footer-right h5 {

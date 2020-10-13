@@ -121,7 +121,7 @@ All goals are addressed through user stories
 * to make sure the user has good experience on mobile devices as the website will be used on the go.
 * to get user feedback on different aspects of the site.
 * to provide local opportunities for businesses.
-* to provide easy naviagtion for customers to find local businesses and Amenities.
+* to provide easy navigation for customers to find local businesses and Amenities.
 
 
 ### Design
@@ -138,7 +138,7 @@ The following colors have formed the main design of the website:
 * #b9bea5 Laurel Green
 * #2F0147 Russian Violet
 
-The prodominent color used for this website was Laurel Green. This was choosen to provide a nice neutral atmosphere and to blend with the various images 
+The predominant color used for this website was Laurel Green. This was chosen to provide a nice neutral atmosphere and to blend with the various images 
 used by adjusting the opacity of this color to various depths.
 
 #### Fonts
@@ -157,7 +157,7 @@ Font weights used were:
 With the help of [figma](https://www.figma.com/) I produced mockups of the proposed website starting with a mobile first approach.
 
 Links to the mockups can be found [here](https://www.figma.com/file/0RxmmzdVcdvmkA27svyg0z/Greenway?node-id=0%3A1) where you will find the full design 
-proposal for each page. I tried my best to adhere to the initail proposal only changing things if seen as an additional improvement to the overall
+proposal for each page. I tried my best to adhere to the inital proposal only changing things if seen as an additional improvement to the overall
 website.
 
 If you cannot access the mockups via the link above you can view them [here](https://github.com/Bar-Dev/Greenway/tree/master/documentation/wireframes)
@@ -173,14 +173,14 @@ If you cannot access the mockups via the link above you can view them [here](htt
     * I wanted the website to give an immediate feel of where the location of the Greenway was as well as a nice light smooth visual approach. I feel the choice of image used
     on the Home page achieves both of these requirements. I added text boxes into the images on each main page to give that extra bit of information so
     that users know what the website is about from the start. 
-    * I kept the amount of text used to a minimum in order to provide the information to the users through a more visual approach and just using text where appropiate. The 
+    * I kept the amount of text used to a minimum in order to provide the information to the users through a more visual approach and just using text where appropriate. The 
     combination of limited text and visual images allowed for me to design the site in a way that uses all retail space of the site as best I could and not having any blank areas 
     on any pages. 
-    * Careful detail was applied to the responsivness of the site to further ensure all retail space sized correctly and not leaving any blank areas.
+    * Careful detail was applied to the responsiveness of the site to further ensure all retail space sized correctly and not leaving any blank areas.
 
 * **Navigation Bar**
-    * The naviagtion bar has a fixed position on all pages to allow for easy constant use. 
-    * On small screen widths the navbar items reduce to a burger sytle icon that provides them with a dropdown list when clicked.
+    * The navigation bar has a fixed position on all pages to allow for easy constant use. 
+    * On small screen widths the navbar items reduce to a toggler icon that provides them with a dropdown list when clicked.
     * The Laurel Green color was used on the navbar to keep in touch with the overall theme of the Greenway.
     * The "Sign Up" button on the Navbar allows users to sign up to the website with their email in order to receive a monthly newsletter about all 
     upcoming activities.
@@ -206,10 +206,10 @@ If you cannot access the mockups via the link above you can view them [here](htt
 
 **Cafe's**
 * The Cafe page provides a visual list of all local Coffee shops and pubs that have signed up to the website.
-* Addressess and contact details are also provided under the images.
+* Addresses and contact details are also provided under the images.
 **Bike Hire**
 * The Bike Hire page provides a visual list of all local Bike Hire shops that have signed up to the website.
-* Addressess and contact details are also provided under the images.
+* Addresses and contact details are also provided under the images.
 
 
 #### Route
@@ -344,7 +344,7 @@ All content in this web app was written by me.
 
 ## Testing
 
-For testing I examined the comoon structures to all pages across all pages and then examined the rest of each page individually. 
+For testing I examined the common structures to all pages across all pages and then examined the rest of each page individually. 
 The following are the tests that I conducted:
 
 ### Navbar (from Home Page)
@@ -354,7 +354,7 @@ The following are the tests that I conducted:
 * Test "Amenities" link displays dropdown list for "Cafe's" and "Bike Hire".
 * Test all navlinks to direct to appropriate pages.
 * Test "Sign Up" button displays Modal on all pages.
-* Test all navlinks display appropiate color on 'hover'.
+* Test all navlinks display appropriate color on 'hover'.
 
 ### Home Page 
 * Test main image zooms out on page launch.
@@ -375,29 +375,29 @@ The following are the tests that I conducted:
 
 ### Footer (from Home Page)
 * Test all links change color on 'hover'.
-* Test "Business" texts bring up appropiate Modal.
+* Test "Business" texts bring up appropriate Modal.
 * Test Business modal confirms email required.
 * Test Business modal closes.
-* Test "Public" texts bring up appropiate Modal.
+* Test "Public" texts bring up appropriate Modal.
 * Test Public modal confirms name required.
 * Test Public modal closes.
 * Test Cafe Icon displays external page to PDF.
 * Test Bike Hire Icon displays external link to PDF.
-* Test all "Social" links direct to appropiate websites in external pages.
+* Test all "Social" links direct to appropriate websites in external pages.
 
 ### Cafe's
 * Test main image zooms out on page launch.
 * Test text box on image has correct breakpoints set.
 * Test text box on image disappears on smaller devices.
 * Check all list images are labelled correctly.
-* Test all list images size appropiately on smaller screens.
+* Test all list images size appropriately on smaller screens.
 
 ### Bike Hire
 * Test main image zooms out on page launch.
 * Test text box on image has correct breakpoints set.
 * Test text box on image disappears on smaller devices.
 * Check all list images are labelled correctly.
-* Test all list images size appropiately on smaller screens.
+* Test all list images size appropriately on smaller screens.
 
 ### Route
 * Test main image zooms out on page launch.
@@ -405,7 +405,7 @@ The following are the tests that I conducted:
 * Test text box on image disappears on smaller devices.
 * Test Route image sizes correctly on smaller devices.
 * Test all icons maintain their positions when map decreases in size.
-* Test all icons decrease in size at appropiate breakpoints.
+* Test all icons decrease in size at appropriate breakpoints.
 * Test all icons change color on 'hover'.
 * Test all icons display correct image Modal when clicked.
 * Test all image Modal close correctly.
