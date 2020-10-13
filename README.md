@@ -340,7 +340,8 @@ All content in this web app was written by me.
    * Seun Owonikoko (Mentor)
    * JimLynx (Slack Webinars and Forum help)
    * Kamil Zok (Slack Forum help)
-
+   * Anthony (Slack Forum Help)
+   * Laimo (Slack Forum Help)
 
 ## Testing
 
