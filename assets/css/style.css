@@ -480,6 +480,15 @@ footer {
     text-align: right;
 }
 
+.social-link-spacing {
+    display: inline-block;
+    margin: 0px;
+    padding-right: 0px;
+}
+
+ul .social-link-spacing {
+    padding-inline-start: 0px;
+}
 /* ----------------------------------------Media Queries */
 
 
@@ -569,6 +578,7 @@ footer {
     .social-link-spacing {
     text-align: right;
     }
+
     .route-image-properties {
     margin-left: auto;
     margin-right: auto;
@@ -712,61 +722,54 @@ footer {
     background-color: rgba(4, 102, 200, 0);
     }
 
-    #cafe-box { 
-    background-color: rgba(75, 218, 52, 0);
-    }
-
-    #bikehire { 
-    background-color: rgba(165, 84, 38, 0);
-    }
-
-    #occasions-box {
-    background-color: rgba(110, 54, 22, 0);
-    }
-
-    #route-box {
-    background-color: rgba(52, 158, 218, 0);
-    }
-
     .route-icons {
     width: 1.0rem;
     height: 1.0rem;
     padding: 1px 0px;
     font-size: 8px;
     }
+
     .social-link-spacing {
     display: inline-block;
     margin-top: 0px;
     }
+
     #footer-right {
     text-align: left;
     margin-top: 20px;
     margin-left: 20px;
     padding: 0px;
     }
+
     #footer-middle {
     text-align: left;
     margin-top: 20px;
     padding-left: 20px;
     }
+
     #footer-right h5 {
     text-align: left;
     }
+
     .social-links {
     text-align: left;
     }
+
     hr {
     margin-top: 20px;
     margin-bottom: 20px;
     }
+
     #route-icon-five {
     left: 71%;
     bottom: 76.5%;
     }
+
     #route-icon-one {
     left: 23.1%;
     bottom: 16.5%;
     }
+
     .carousel-content {
     width: 90%;
     margin-left: auto;
