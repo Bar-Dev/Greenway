@@ -306,7 +306,7 @@ For more detailed information regarding deployment to GitHub Pages click [here](
 
 ### Content
 
-All content in this web app was written by me.
+All content in this web app was written by me or code that was altered or acknowledged in this ReadMe.
 
 ### Media
 
@@ -339,6 +339,7 @@ All content in this web app was written by me.
 * [W3C](https://www.w3.org/)
 * [Stack overflow](https://stackoverflow.com/)
 * [CSS-Tricks](https://css-tricks.com/)
+* [Bootstrap](https://getbootstrap.com/)
 
 #### I received advice and encouragement from
    * Seun Owonikoko (Mentor)
