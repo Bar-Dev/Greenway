@@ -39,9 +39,10 @@ The website can be viewed on Desktop, Tablet and Mobile devices. Click <a href="
     * [Features left to implement](#features-left-to-implement)
     * [Plans for Future Releases](#plans-for-future-releases)
 3.  [Technologies](#technologies)
-4.  [Deployment](#deployment)
-5.  [Testing](#testing)
+4.  [Testing](#testing)
+5.  [Deployment](#deployment)
 6.  [Credits](#credits)
+7.  [Disclaimer](#disclaimer)
     
 ## 1. UX
 
@@ -163,7 +164,7 @@ website.
 If you cannot access the mockups via the link above you can view them [here](https://github.com/Bar-Dev/Greenway/tree/master/documentation/wireframes)
 
 
-## Features
+## 2. Features
 
 ### Existing Features
 
@@ -244,7 +245,7 @@ information.
 * Feedback - I want to expand the feedback section so the businesses can have their own relevant feedback for their own premises.
 
 
-## Technologies
+## 3. Technologies
 
 ### Languages
 
@@ -272,11 +273,11 @@ information.
 * [Free Formatter](https://www.freeformatter.com/) - used to format my html, css and javascript code.
 * [Coolors](http://coolors.co/) - used to test colour combinations.
 
-## Testing
+## 4. Testing
 
 Full documentation of all testing can be viewed [here](https://github.com/Bar-Dev/Greenway/tree/master/testing.md)
 
-## Deployment
+## 5. Deployment
 
 A live demo of the website can be reached [here](https://bar-dev.github.io/Greenway)
 
@@ -301,7 +302,7 @@ This web app was developed in Gitpod and pushed to the remote repository, GitHub
 For more detailed information regarding deployment to GitHub Pages click [here](https://pages.github.com/).
 
 
-## Credits
+## 6. Credits
 
 ### Content
 
@@ -347,7 +348,7 @@ All content in this web app was written by me.
    * Laimo (Slack Forum Help)
 
 
-## DISCLAIMER: 
+## 7. Disclaimer: 
 This project is for educational purposes only, no materials/files are intended for any commercial use. 
 In this document all sources will be credited.
 
