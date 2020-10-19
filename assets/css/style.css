@@ -513,6 +513,14 @@ footer {
 }
 }
 
+/* ---- Break Two ---- */
+@media(max-width: 1024px) {
+    .hr-video {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    }
+
+/* ---- Break Three ---- */
 @media(max-width: 1007px) {
     .social-link-spacing {
     display: inline-block;
@@ -520,9 +528,14 @@ footer {
     }
     }
 
-/* ---- Break Two ---- */
+/* ---- Break Four ---- */
 @media(max-width: 992px) {
     hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+
+    .hr-video {
     margin-top: 30px;
     margin-bottom: 30px;
     }
@@ -609,7 +622,7 @@ footer {
     }  
 }
 
-/* ---- Break Three ---- */
+/* ---- Break Five ---- */
 @media(max-width: 767px) {
     .box .info-box {
     position: absolute;
@@ -708,7 +721,7 @@ footer {
 }
 
 
-/* ---- Break Four ---- */
+/* ---- Break Six ---- */
 @media(max-width: 574px) {
     .col-sm-4 h3 {
     margin-top: 20px;
@@ -778,7 +791,7 @@ footer {
     }
 }
 
-/* ---- Break Five ---- */
+/* ---- Break Seven ---- */
 @media(max-width: 405px) {
     h1 {
     font-size: 20px;

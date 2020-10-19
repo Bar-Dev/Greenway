@@ -274,7 +274,7 @@ information.
 
 ## Testing
 
-Full documentation of all testing can be viewed [here](https://github.com/Bar-Dev/Greenway/blob/873386ce43a820ee2d66e234b9c1ff8b170434ec/testing.md)
+Full documentation of all testing can be viewed [here](https://github.com/Bar-Dev/Greenway/tree/master/testing.md)
 
 ## Deployment
 
