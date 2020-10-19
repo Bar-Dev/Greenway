@@ -1,6 +1,6 @@
 # Walk, Run, Cycle, Explore - THE GREENWAY
 
-<img src="./images/multi-screen.png" style="margin: 0;">
+<img src="./assets/images/multi-screen.png" style="margin: 0;">
 
 
 ## Introduction
@@ -130,7 +130,7 @@ All goals are addressed through user stories
 
 The following colors have formed the main design of the website:
 
-<img src="./images/greenway-colors.png" style="margin: 0;">
+<img src="./assets/images/greenway-colors.png" style="margin: 0;">
 
 **List of colors used are:**
 * #555555 Davys Grey
@@ -272,10 +272,13 @@ information.
 * [Free Formatter](https://www.freeformatter.com/) - used to format my html, css and javascript code.
 * [Coolors](http://coolors.co/) - used to test colour combinations.
 
+## Testing
+
+Full documentation of all testing can be viewed [here](https://github.com/Bar-Dev/Greenway/blob/873386ce43a820ee2d66e234b9c1ff8b170434ec/testing.md)
 
 ## Deployment
 
-A live demo of the website can be reached [here]()
+A live demo of the website can be reached [here](https://bar-dev.github.io/Greenway)
 
 This web app was developed in Gitpod and pushed to the remote repository, GitHub. The live page is hosted on GitHub Pages. 
 
@@ -342,83 +345,6 @@ All content in this web app was written by me.
    * Kamil Zok (Slack Forum help)
    * Anthony (Slack Forum Help)
    * Laimo (Slack Forum Help)
-
-## Testing
-
-For testing I examined the common structures to all pages across all pages and then examined the rest of each page individually. 
-The following are the tests that I conducted:
-
-### Navbar (from Home Page)
-* "The Greenway" logo tested to direct to homepage.
-* Test that logo is decreases in size for smaller screens and toggler icon shown instead of navlinks.
-* Test toggler icon drops down to display navlinks.
-* Test "Amenities" link displays dropdown list for "Cafe's" and "Bike Hire".
-* Test all navlinks to direct to appropriate pages.
-* Test "Sign Up" button displays Modal on all pages.
-* Test all navlinks display appropriate color on 'hover'.
-
-### Home Page 
-* Test main image zooms out on page launch.
-* Test text box on image has correct breakpoints set.
-* Test text box on image disappears on smaller devices.
-* Correct color scheme.
-* Test carousels position correctly.
-* Test carousels display the correct images.
-* Test carousels have navigation arrows clearly visible across all screen widths.
-* Test text box on carousel images disappears on smaller devices.
-* Test "View Larger Images" button changes color on hover.
-* Test "View Larger Images" button displays correct carousel Modal.
-* Test carousel Modal has correct images.
-* Test carousel Modal images have navigation arrows clearly visible across all screen widths.
-* Test carousel Modals close correctly.
-* Test correct spacing above and below individual carousel sections when displayed on smaller devices.
-* Test Feedback section size correctly when viewed on smaller devices.
-
-### Footer (from Home Page)
-* Test all links change color on 'hover'.
-* Test "Business" texts bring up appropriate Modal.
-* Test Business modal confirms email required.
-* Test Business modal closes.
-* Test "Public" texts bring up appropriate Modal.
-* Test Public modal confirms name required.
-* Test Public modal closes.
-* Test Cafe Icon displays external page to PDF.
-* Test Bike Hire Icon displays external link to PDF.
-* Test all "Social" links direct to appropriate websites in external pages.
-
-### Cafe's
-* Test main image zooms out on page launch.
-* Test text box on image has correct breakpoints set.
-* Test text box on image disappears on smaller devices.
-* Check all list images are labelled correctly.
-* Test all list images size appropriately on smaller screens.
-
-### Bike Hire
-* Test main image zooms out on page launch.
-* Test text box on image has correct breakpoints set.
-* Test text box on image disappears on smaller devices.
-* Check all list images are labelled correctly.
-* Test all list images size appropriately on smaller screens.
-
-### Route
-* Test main image zooms out on page launch.
-* Test text box on image has correct breakpoints set.
-* Test text box on image disappears on smaller devices.
-* Test Route image sizes correctly on smaller devices.
-* Test all icons maintain their positions when map decreases in size.
-* Test all icons decrease in size at appropriate breakpoints.
-* Test all icons change color on 'hover'.
-* Test all icons display correct image Modal when clicked.
-* Test all image Modal close correctly.
-
-### Occasions
-* Test main image zooms out on page launch.
-* Test text box on image has correct breakpoints set.
-* Test text box on image disappears on smaller devices.
-* Test Video displays size correctly on smaller devices.
-* Test Videos Play and Pause correctly.
-* Test Video audio works correctly.
-
 
 
 ## DISCLAIMER: 
